@@ -1,0 +1,125 @@
+#h-line{
+	width: 500px;
+	height: 2px;
+	color: silver;	
+}
+#main {
+width:1000px;
+height:700px;
+margin: 25px auto;
+background: #656756
+border: solid 2px #ff3819
+padding: 10px;	
+	                          	
+}
+
+
+#outerbox{
+	
+	height:400px;
+	width:700px;
+	overflow: hidden;
+}
+
+
+#sliderbox {
+
+	position:relative;
+	width:2800px;
+	animation-name:anione ;
+	animation-duration:20s ;
+}
+#sliderbox img{
+
+	float:left;
+}
+
+@keyframes anione {
+
+	0%{
+		left:0px;	
+
+	}
+	20%{
+		left:0px;
+	}
+	25%{
+		left:-700px;
+	}
+	45%{
+		left:-700px;
+	}
+	50%{
+		left:-1400px;
+	}
+	70%{
+		left:-1400px;
+	}
+	75%{
+		left:-2100px;
+	}
+	95%{
+		left:-2100px;
+	}
+	100%{
+		left:-2800px;
+	}
+
+	100%{
+		right:-700px;
+
+	}
+
+}
+
+body{
+	margin:0;
+	padding:0;
+	text-align:center
+	background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url(1.jpg);	
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif; 
+}
+.contact-title h1{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transform: all 4s ease-in-out;
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+
+}
+.contact-title h2{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out; 
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline:none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: 
+	border-color:transparent;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px
+	height:50px;
+	margin-top: 20px;
+
+}
